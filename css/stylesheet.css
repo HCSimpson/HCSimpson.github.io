@@ -1,0 +1,9 @@
+*{ 
+    margin: 0; padding: 0; 
+}
+
+.header{
+    background-image: url(../images/mountain_header.jpg);
+    height: 500px;
+}
+
