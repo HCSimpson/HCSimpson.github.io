@@ -1,5 +1,7 @@
 *{ 
 	margin: 0; padding: 0; 
+	box-sizing: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.3); 
 }
 
 .header{
@@ -11,6 +13,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	font-size: 80px;
+	color: white;
 }
 
 .header-content {
@@ -23,5 +26,5 @@
 }
 
 .main-content {
-	
+	background-color: rgb(13, 23, 83);
 }
