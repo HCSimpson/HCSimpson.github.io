@@ -12,6 +12,7 @@
 	background: url("../images/mountain_header.jpg") no-repeat center bottom;
 	background-size: cover;
 	background-attachment: fixed;
+	font-family: 'Rock Salt', cursive;
 	font-size: 80px;
 	color: white;
 }
@@ -22,9 +23,13 @@
 	position: relative;
 	text-align: center;
 	top: 280px;
-	width: 70%;
+	width: 90%;
 }
 
 .main-content {
 	background-color: rgb(13, 23, 83);
+}
+
+.space {
+	height: 2000px;
 }
