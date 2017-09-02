@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+ul ul {
+  position: relative;
+  left: 20px; }
+
 .contact-footer {
   width: 100%;
   height: 165px; }
@@ -31,21 +35,32 @@
     font: normal normal 15px/1.8 Times;
     text-align: right;
     position: relative;
-    top: 740px; }
-    .header .header-footer a {
-      color: white; }
-    .header .header-footer a:visited {
-      color: white; }
-    .header .header-footer a:hover {
-      color: white; }
-    .header .header-footer a:active {
-      color: white; }
+    top: 610px; }
+  .header a {
+    color: white; }
+  .header a:visited {
+    color: white; }
+  .header a:active {
+    color: white; }
+  .header a:hover {
+    color: white; }
+  .header .navigation {
+    position: relative;
+    top: 580px;
+    color: black;
+    display: inline; }
+    .header .navigation ul {
+      list-style-type: none;
+      margin: 0;
+      word-spacing: 20px; }
+    .header .navigation li {
+      display: inline; }
 
 .main {
   position: relative;
   top: 25px;
   width: 80%;
   margin: auto;
-  font: normal normal 15px/2 Times; }
+  font: normal normal 18px/2 Times; }
 
 /*# sourceMappingURL=stylesheet.css.map */
