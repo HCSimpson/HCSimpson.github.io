@@ -43,12 +43,12 @@ ul ul {
   .header a:active {
     color: white; }
   .header a:hover {
-    color: white; }
+    color: #981818; }
   .header .navigation {
     position: relative;
-    top: 580px;
-    left: 30px;
-    display: inline; }
+    width: 90%;
+    top: 610px;
+    left: 15px; }
     .header .navigation ul {
       list-style-type: none;
       margin: 0;
