@@ -64,6 +64,10 @@ h6 {
   color: blueviolet;
 }
 
+#projects-section .container-fluid {
+  margin-bottom: 20px;
+}
+
 .card-icon {
   float: right;
 }
