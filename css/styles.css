@@ -1,0 +1,54 @@
+/* Standard Elements */
+body {
+  background-color: #393E46;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+
+p {
+
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* Background Colors */
+.color-section {
+  background-color: #00ADB5;
+  color: #fff;
+}
+
+.dark-section {
+  background-color: #393E46;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar {
+  padding: .5rem 1.5rem;
+}
+
+/* Header Section */
+
+/* About Me Section */
+
+/* Projects */
+
+/* Experience Section */
+
+/* Certifications Section */
+
+/* Footer Section */
