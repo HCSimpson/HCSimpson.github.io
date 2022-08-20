@@ -1,6 +1,6 @@
 /* Standard Elements */
 body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1,
@@ -12,23 +12,18 @@ h6 {
   font-weight: 900;
 }
 
-p {
-
-}
-
-/* Containers */
-.container-fluid {
-  padding: 3% 10%;
+.title {
+  padding: 0 1%;
 }
 
 /* Background Colors */
 .color-section {
-  background-color: #00ADB5;
+  background-color: #00adb5;
   color: #fff;
 }
 
 .dark-section {
-  background-color: #393E46;
+  background-color: #393e46;
   color: #fff;
 }
 
@@ -38,16 +33,37 @@ p {
 }
 
 .navbar {
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
 
 /* Header Section */
+#header-section {
+  padding: 10% 3%;
+}
 
 /* About Me Section */
+#about-me-section {
+  padding: 10% 3%;
+}
 
 /* Projects */
+#projects-section {
+  padding: 1% 3%;
+  color: #000;
+}
+
+#projects-section .container-fluid {
+  padding: 3% 5%;
+}
+
+.card-icon {
+  float: right;
+}
 
 /* Experience Section */
+#experience-section .container-fluid {
+  padding: 3% 10%;
+}
 
 /* Certifications Section */
 
