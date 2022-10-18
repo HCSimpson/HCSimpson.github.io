@@ -1,4 +1,53 @@
+body {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+p {
+
+}
+
 /* Navigation Bar */
 .navbar {
   padding: 0.5rem 1.5rem;
+}
+
+/* Sections */
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Experience Section */
+#experience {
+  
+}
+
+.experience-container {
+  padding: 5% 10%;
+}
+
+.experience-text {
+
+}
+
+/* Footer Section */
+#footer-section {
+  padding: 3% 5% 5%;
+}
+
+.footer-icons {
+  text-align: center;
+  width: 100%;
+}
+
+.footer-icon {
+  padding: 2% 3% 5%;
 }
