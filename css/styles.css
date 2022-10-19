@@ -40,6 +40,9 @@ p {
 /* About Me Section */
 
 /* Projects Section */
+.projects img {
+  border: 5px;
+}
 
 /* Experience Section */
 .experience-container {
