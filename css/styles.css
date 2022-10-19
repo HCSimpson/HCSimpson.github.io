@@ -10,14 +10,26 @@ p {
 
 }
 
+/* Title Section */
+#title {
+  margin-bottom: 30px;
+}
+
 /* Navigation Bar */
 .navbar {
   padding: 0.5rem 1.5rem;
 }
 
-/* Sections */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Color Sections */
 .color-section {
-  background-color: #ff4c68;
+  background-color: #00adb5;
   color: #fff;
 }
 
@@ -25,29 +37,23 @@ p {
   background-color: #fff;
 }
 
+/* About Me Section */
+
+/* Projects Section */
+
 /* Experience Section */
-#experience {
-  
-}
-
 .experience-container {
-  padding: 5% 10%;
+  padding: 0% 10%;
 }
 
-.experience-text {
-
-}
+/* Certifications Section */
 
 /* Footer Section */
-#footer-section {
-  padding: 3% 5% 5%;
-}
-
-.footer-icons {
-  text-align: center;
-  width: 100%;
+.footer-section {
+  background-color: #393e46;
+  color: #fff;
 }
 
 .footer-icon {
-  padding: 2% 3% 5%;
+  padding: 0% 0% 0%;
 }
