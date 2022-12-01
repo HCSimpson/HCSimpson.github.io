@@ -1,62 +1,127 @@
 body {
-
+  padding-top: 70px;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-
+h1 {
+  text-align: left;
+  padding-bottom: 1%;
 }
 
-p {
-
+h2 {
+  text-align: left;
+  padding-bottom: 1%;
 }
 
-/* Title Section */
-#title {
-  margin-bottom: 30px;
+.section-container {
+  padding: 20px 10px 20px 20px;
 }
 
-/* Navigation Bar */
 .navbar {
-  padding: 0.5rem 1.5rem;
+  text-align: right;
+  padding: 15px 10px 20px 20px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+.color {
+  background: #22a39f;
+  color: #222;
 }
 
-/* Color Sections */
-.color-section {
-  background-color: #00adb5;
-  color: #fff;
+.grey {
+  background: rgba(34, 34, 34, 1);
+  background: linear-gradient(
+    to right,
+    rgba(34, 34, 34, 1),
+    rgba(42, 42, 42, 1)
+  );
+  color: #f3efe0;
 }
 
-.white-section {
-  background-color: #fff;
+/* Might use this later */
+.raindbow-gradient {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 }
 
+/* Header Section */
+#header {
+}
 /* About Me Section */
+#about-me {
+}
 
 /* Projects Section */
-.projects img {
-  border: 5px;
+#projects {
+}
+
+.card {
+  margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background: #f3efe0;
+}
+
+.card-body {
+  color: #000;
+  text-align: left;
+}
+
+.card-icon {
+  float: right;
+}
+
+.card-img-top {
+  width: 286;
+  height: 180;
 }
 
 /* Experience Section */
-.experience-container {
+#experience {
+  text-align: left;
+}
+
+#experience-section {
+}
+
+#experience-carousel {
   padding: 0% 10%;
 }
 
 /* Certifications Section */
-
-/* Footer Section */
-.footer-section {
-  background-color: #393e46;
-  color: #fff;
+#certifications {
 }
 
-.footer-icon {
-  padding: 0% 0% 0%;
+#certifications img {
+  height: 250px;
+  margin: 0% 1% 3%;
+}
+
+#certifications a:hover {
+  color: hotpink;
+}
+
+/* Contact Section */
+#contact {
+  background: rgb(44, 55, 57, 1);
+  color: #ffffff;
+}
+
+#contact .icon {
+  margin: 0% 1% 3%;
+}
+
+@media (max-width: 1028px) {
+  #contact .icon {
+    height: 10px;
+  }
 }
